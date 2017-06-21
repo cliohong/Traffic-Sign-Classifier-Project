@@ -48,7 +48,7 @@ Here is a data visualization I created randomly pick 64 images from training dat
 
 
 
-![plot](.others/plot_data.jpg)
+![plot](plot_data.jpg)
 
 According to the diagram above, I found the **Speed limit (30km/h)** sign -> index **1**, **Speed limit (50km/h)** sign -> index **2** **Priority road** sign -> index **12**, **Yield** sign ->index **13** and **Keep right** sign ->index **38** have the highest occurences in this dataset
 
@@ -110,7 +110,7 @@ here are some new traffic sgin images I found on web
 
 As the prediction results shown above, I found **no vehicle** sign and **bumpy road** sign were easy to be recognized with nearly 100% certainty, however, the **speed limit(120km/h)** sign had really poor certainty, which implied that these 8 classes seemed to be more difficult to be identified correctly: **speed limit(20km/h)**,  **speed limit(30km/h)**, **speed limit(50km/h)**, **speed limit(60km/h)**, **speed limit(70km/h)**, **speed limit(80km/h)**, **speed limit(100km/h)** and **speed limit(120km/h)** , the number inside the circle of different speed limit classes were too similar to be classified with high certainty. 
 
-I found my classifier worked poorly on speed limit recognition(with low probablity of 20%), thus I thought collecting more data samples from classes of speed limit signs would be a good way to improve the certainty of predicting them.  
+I found my classifier worked poorly on speed limit recognition(with low probability of 20%), thus I thought collecting more data samples from classes of speed limit signs would be a good way to improve the certainty of predicting them.  
 
 
 ```python
